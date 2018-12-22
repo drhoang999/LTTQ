@@ -559,6 +559,7 @@
             // 
             // picPause
             // 
+            this.picPause.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picPause.Image = ((System.Drawing.Image)(resources.GetObject("picPause.Image")));
             this.picPause.Location = new System.Drawing.Point(236, 19);
             this.picPause.Name = "picPause";
@@ -593,6 +594,7 @@
             // 
             // picContinue
             // 
+            this.picContinue.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picContinue.Image = ((System.Drawing.Image)(resources.GetObject("picContinue.Image")));
             this.picContinue.Location = new System.Drawing.Point(236, 19);
             this.picContinue.Name = "picContinue";
@@ -605,6 +607,7 @@
             // 
             // camerapic
             // 
+            this.camerapic.Cursor = System.Windows.Forms.Cursors.Hand;
             this.camerapic.Image = ((System.Drawing.Image)(resources.GetObject("camerapic.Image")));
             this.camerapic.Location = new System.Drawing.Point(464, 13);
             this.camerapic.Name = "camerapic";
@@ -617,6 +620,7 @@
             // 
             // ptrRec
             // 
+            this.ptrRec.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ptrRec.Image = ((System.Drawing.Image)(resources.GetObject("ptrRec.Image")));
             this.ptrRec.Location = new System.Drawing.Point(84, 0);
             this.ptrRec.Name = "ptrRec";
@@ -628,6 +632,7 @@
             // 
             // ptrStop
             // 
+            this.ptrStop.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ptrStop.Image = ((System.Drawing.Image)(resources.GetObject("ptrStop.Image")));
             this.ptrStop.Location = new System.Drawing.Point(84, 0);
             this.ptrStop.Name = "ptrStop";
@@ -646,6 +651,7 @@
             this.panel3.Controls.Add(this.button3);
             this.panel3.Controls.Add(this.button2);
             this.panel3.Controls.Add(this.button1);
+            this.panel3.Cursor = System.Windows.Forms.Cursors.SizeAll;
             this.panel3.Location = new System.Drawing.Point(1, -3);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(980, 60);
